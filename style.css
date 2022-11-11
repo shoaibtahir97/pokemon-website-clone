@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.first-nav {
+    background-color: #F5F5F5;
+}
+
+li img {
+    margin: 5px;
+    line-height: 0;
+    margin-bottom: 0;
+    vertical-align: bottom;
+}
+
+.home {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+}
+
+.navbar-expand-lg {
+    padding: 0px !important;
+
+}
+
+@media only screen and(max-width: 961px) {
+
+
+
+    .navbar .container-fluid .collapse {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+}
+    .navbar .container-fluid .collapse .navbar-nav .active {
+        background-color: #919191;
+        color: white;
+        border-bottom-left-radius: 8px;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .nav-link {
+        padding: 25px 0 15px 0;
+        width: 130px;
+        line-height: 1rem;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .pokedex {
+        border-bottom: 5px solid #E3350D;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .pokedex:hover {
+        background-color: #E3350D;
+        color: white;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .app {
+        border-bottom: 5px solid #EE6B2F;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .app:hover {
+        background-color: #EE6B2F;
+        color: white;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .game {
+        border-bottom: 5px solid #E6BC2F;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .game:hover {
+        background-color: #E6BC2F;
+        color: white;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .tv {
+        border-bottom: 5px solid #4DAD5B;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .tv:hover {
+        background-color: #4DAD5B;
+        color: white;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .event {
+        border-bottom: 5px solid #30A7D7;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .event:hover {
+        background-color: #30A7D7;
+        color: white;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .news {
+        border-bottom: 5px solid #1B53BA;
+    }
+
+    .navbar .container-fluid .collapse .navbar-nav .news:hover {
+        background-color: #1B53BA;
+        color: white;
+        border-bottom-right-radius: 8px;
+    }
+
+    .main-div {
+        width: 935px !important;
+    }
+
+
+.container .row .col-4 .row .col-12 .card-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.card {
+    /*
+          All of the base styles have
+          moved to the “CSS” tab above.
+        */
+    transition: transform 250ms;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
